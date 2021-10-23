@@ -6,8 +6,8 @@ It's very easy to run this program, just type
 # Dependencies
 * python3
 * python3-pip 
-* os (If not installed, python3-pip is required to install this library)
-* re (If not installed, python3-pip is required to install this library)
+* os (If not installed, python3-pip is required to install this library, but usually os comes with python3)
+* re (If not installed, python3-pip is required to install this library, but usually re comes with python3)
 * neofetch 
 
 License: GNU General Public License 3.0
