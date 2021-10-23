@@ -33,7 +33,13 @@ def new_list():
     os.system("clear")
     print("GNU SYSTEM INFORMATION UTILITY")
 
+def CPU():
+    for line in file:
+        for x in range(0, 7):
 
+            if re.search(flag[x], line):
+
+                print(line)
 os.system("clear")
 if what == '1':
     new_list()
@@ -47,23 +53,13 @@ if what == '1':
     os.system('uname -a')
     input("Press Enter to go to the next page.")
     new_list()
-    for line in file:
-        for x in range(0, 7):
-
-            if re.search(flag[x], line):
-
-                print(line)
+    CPU()
 
 
 
 if what == '2':
     new_list()
-    for line in file:
-        for x in range(0, 7):
-
-            if re.search(flag[x], line):
-
-                print(line)
+    CPU()
 if what == '3':
 
     new_list()
