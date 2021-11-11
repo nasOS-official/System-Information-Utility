@@ -3,7 +3,7 @@ This is a simple utility, for the terminal, which allows you to find out informa
 It's very easy to run this program, just type
 ```python3 main.py```
 
-# Dependencies
+## Dependencies
 * python3
 * python3-pip 
 * os (If not installed, python3-pip is required to install this library, but usually os comes with python3)
